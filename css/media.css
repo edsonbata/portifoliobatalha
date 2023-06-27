@@ -66,6 +66,10 @@
 		display: none;
 		
 	}
+
+	.skills-card-title{
+		color: #000;
+	}
 }
 
 
@@ -121,6 +125,10 @@
 	.contacts-social {
 		column-gap: 50px;
 		margin-bottom: 20px;
+	}
+
+	.skills-card-title{
+		color: #000;
 	}
 
 }
