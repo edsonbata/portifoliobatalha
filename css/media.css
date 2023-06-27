@@ -70,6 +70,9 @@
 	#skills-card-title1{
 		color: #000;
 	}
+
+	
+	
 }
 
 
@@ -96,6 +99,7 @@
 
 	.projectos-title {
 		margin-bottom: 50px;
+		
 	}
 
 	.project-img {
@@ -116,6 +120,8 @@
 
 	.contacts-content {
 		margin-bottom: 20px;
+		font-size: 8px;
+		font-weight: 500;
 	}
 
 	.contacts-button {
@@ -126,7 +132,9 @@
 		column-gap: 50px;
 		margin-bottom: 20px;
 	}
-
+      .title-1{
+		font-size: 20px;
+	  }
 	
 
 }
