@@ -67,7 +67,7 @@
 		
 	}
 
-	.skills-card-title{
+	#skills-card-title1{
 		color: #000;
 	}
 }
@@ -127,8 +127,6 @@
 		margin-bottom: 20px;
 	}
 
-	.skills-card-title{
-		color: #000;
-	}
+	
 
 }
