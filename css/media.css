@@ -5,6 +5,7 @@
 
 	.nav-button {
 		display: block;
+		
 	}
 
 	.nav.open .nav-list {
@@ -13,16 +14,23 @@
 		bottom: 0;
 		left: 0;
 		right: 0;
-		background-color: #fff;
+		background-color: #FFFFFF;
 
 		z-index: 1;
 		padding: 46px 30px;
 		display: flex;
 		flex-direction: column;
-		row-gap: 40px;
-
-		font-size: 34px;
-		font-weight: 600;
+		width: 100%;
+		height: 20%;
+		
+	}
+	.nav.open .nav-list li{
+		margin-right: 0;
+	}
+	.nav.open .nav-list li a{
+		padding: 5px;
+		display: block;
+		text-align: center;
 	}
 
 	.nav-button {
@@ -52,31 +60,27 @@
 		font-size: 14px;
 	}
 
-	.header-img {
+	.header-img, .imgback {
 		text-align: center;
+		margin-top: 40px;
 	}
 	
 	.efect{
 		display: none;
 		
 	}
-
-
 	.efect2{
-		display: none;
-		
+		display: none;	
 	}
 
 	#skills-card-title1{
 		color: #000;
-	}
-
-	
-	
+	}	
 }
 
 
-@media (max-width: 700px) {
+
+@media (max-width: 768px) {
 	.header-heading {
 		font-size: 30px;
 		line-height: 1.3;
@@ -136,5 +140,17 @@
 		font-size: 20px;
 	  }
 	
-
+	  .projectos ul li,
+    .projectos ul li.projects__reversed-list {
+      flex-direction: column;
+    }
+  
+    .projectos ul li .inf-projectos {
+      max-width: 66rem;
+    }
+  
+    .projectos ul li .image img {
+      min-width: auto;
+    }
+	 
 }
