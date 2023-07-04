@@ -14,7 +14,7 @@
 		bottom: 0;
 		left: 0;
 		right: 0;
-		background-color: #FFFFFF;
+		background-color: #ebe9e9;
 
 		z-index: 1;
 		padding: 46px 30px;
@@ -73,9 +73,7 @@
 		display: none;	
 	}
 
-	#skills-card-title1{
-		color: #000;
-	}	
+	
 }
 
 
